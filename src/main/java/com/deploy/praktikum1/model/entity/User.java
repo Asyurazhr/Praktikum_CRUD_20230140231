@@ -20,5 +20,7 @@ public class User {
    @Id
     private String id;
 
+    @Column(name = "name", nullable = false)
+    private String name;
 
 }
